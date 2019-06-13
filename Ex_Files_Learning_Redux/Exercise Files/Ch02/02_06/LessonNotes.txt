@@ -1,0 +1,11 @@
+constants.js, initialState.js and the challenges folder
+
+need to run "npm install" for this lesson 
+
+"npm run challenge-a" -b, -c, -d
+where did he get those names???
+package.json -- scripts (he created these ahead of the lesson.
+	They are kind of like aliases, they'll run whatever is written after each item.)
+
+This challenge is set up by comparing actuals to expected for the four constants.
+Write reducers to make each pass the test.

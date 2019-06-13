@@ -1,0 +1,12 @@
+Redux is a functional language. So don't think of nouns, like OOP.
+Think in terms of verbs. What will the app and the user do?
+Stuff like: add calendar events, fetch resort names, set goals, and cancelling stuff too.
+
+Start with constants.js in start/src.
+You'll add the constants for all of the verbs that will be in the app.
+
+Nouns have a place, usually in the State. Eg, what is the thing and what is it at any given moment?
+Those will be in initialState.json. That is the snapshot of the state.
+
+The actions/verbs and the state are the two major parts of a redux app.
+Next up: "Reducers" which manage the verbs and the state.

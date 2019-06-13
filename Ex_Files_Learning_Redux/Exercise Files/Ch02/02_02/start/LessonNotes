@@ -1,0 +1,7 @@
+Reducers are pure functions that manage the state.
+
+Every key in initialState.json will need a reducer to manage it.
+Hope over to index.js and reducers.js for more.
+
+"npm install" (make sure it's the correct folder!)
+"npm start" to test (looks like you can skip all the babel installs)

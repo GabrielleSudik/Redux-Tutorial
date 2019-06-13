@@ -1,0 +1,9 @@
+"Composing a reducer"
+Reducer to manage list of ski days under allSkiDays
+index.js and reducers.js
+
+Composing is when you use one reducer inside another
+See the allSkiDays function in reducers.js
+
+Also examples of how to guard against duplicate entries.
+state.some, state.filter examples.

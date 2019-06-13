@@ -1,0 +1,6 @@
+Create array reducers.
+We'll create an array of "errors" (see initialState.json)
+
+index.js
+reducers.js
+

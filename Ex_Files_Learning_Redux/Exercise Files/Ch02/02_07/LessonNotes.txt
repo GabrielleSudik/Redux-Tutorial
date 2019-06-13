@@ -1,0 +1,8 @@
+Until this lesson, we hadn't actually used redux.
+Everything so far were just JS functions. (I guess action and payload are not redux specific then).
+"npm install redux --save"
+
+Combining reducers: Allow sending of entire state to a single reducer.
+The reducer must have the same organization as the entire state (outlined in initialState.js).
+
+"npm start" (remember, from package.json scripts line)

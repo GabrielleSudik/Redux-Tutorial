@@ -1,0 +1,4 @@
+Last lesson: you created a state reducer. (goal)
+This lesson: create an object reducer. (ski days)
+
+index.js and reducers.js for skiDay

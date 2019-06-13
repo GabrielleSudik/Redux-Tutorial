@@ -1,0 +1,27 @@
+To get your project working, you need node.js.
+And WE need Babel for this project as well.
+
+In the console, in your project's /start folder, 
+"node version" or "node -v" to confirm you have node.
+(This varies depending on which computer you use for some reason.)
+"npm init" -- will create a package.json file
+You can just accept defaults or enter info.
+Note it created in your finished/src for some reason.
+"npm install babel-cli babel-core --save-dev"
+"npm install babel-preset-latest --save-dev"
+"npm install babel-preset-stage-0 --save-dev" (experimental features)
+"npm install babel-preset-env --save-dev" (try this instead of the preceeding three? npm install recommends it. or maybe that's instead of npm install only?)
+"npm install" -- needed sometimes, I think the prof lets you know when.
+"npm install redux --save" (was not used through 02-06!)
+
+.babelrc (created by you) stores which babel features you'll be using.
+
+In package.json, there is a "scripts" that defaulted to "test".
+Change it to "start" then the paths of node and the app. (go there to see them)
+
+**NOTE** you might need to Show All Files after you install stuff.
+Not everything showed up after creation.
+
+To run the app: "npm start"
+
+In future folders, you need "npm init" and at least the first "npm install babel" line. before you "npm start". 

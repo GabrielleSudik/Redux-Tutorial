@@ -1,0 +1,28 @@
+{
+  "allSkiDays": [
+    {
+      "resort": "Lake Louise",
+      "date": "2001-03-15",
+      "powder": true,
+      "backcountry": false
+    },
+    {
+      "resort": "Telluride",
+      "date": "2002-03-12",
+      "powder": false,
+      "backcountry": false
+    },
+    {
+      "resort": "Unadulterated Snow",
+      "date": "2020-03-10",
+      "powder": true,
+      "backcountry": true
+    }
+  ],
+  "goal": 10,
+  "errors": [],
+  "resortNames": {
+    "fetching": false,
+    "suggestions": [ "Telluride", "Tank Mountain", "Teepee", "Tip-Toe" ]
+  }
+}
