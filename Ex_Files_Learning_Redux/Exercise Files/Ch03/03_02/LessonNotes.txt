@@ -1,0 +1,6 @@
+In start folder:
+"npm install" needed only. The rest are already there, per prof's code.
+
+Index.js: We will create a store. All old code except imports will be deleted
+and replaced with whatever you learn here.
+

@@ -1,1 +1,33 @@
-chapt 3 ready to go.
+So what does "npm install" do? 
+It installs whatever packages are listed in the package.json dependencies script.
+Make you run the command from whatever folder that package is in.
+
+This lesson:
+"npm install webpack --save-dev"
+That command installs webpack package, and puts it in the package.json file
+the --save-dev part puts it in the devDependencies, so it's only used during development.
+
+And 
+"npm install webpack-dev-server --save-dev"
+That will host the application.
+
+Webpack needs loaders. They give instructions to webpack about how to read the code. Like tranlating ES6 to JS.
+"npm install babel-loader --save-dev"
+"npm install json-loader --save-dev"
+"npm install babel-core --save-dev"
+
+These are now all listed in DevDependencies in the package.json
+
+We want the index.js appReducer to run in a browser window. It currently has several imports.
+Webpack will bundle all of its imports into one bundle.
+We create a file with the instructions to webpack how to do that:
+webpack.config.js
+
+Finally, replace the package scripts with:
+"start": "./node_modules/.bin/webpack-dev-server"
+
+Open browser, go to
+localhost:3000
+F12 and check the console. You'll see index.js's stuff logged there.
+
+(Note to self: something isn't working in your setup, don't worry about it, future lessons will correct the code.)

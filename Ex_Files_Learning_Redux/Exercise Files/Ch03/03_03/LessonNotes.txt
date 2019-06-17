@@ -1,0 +1,5 @@
+"npm install"
+
+Subscribe method.
+Every time a state changes/an action is dispatched,
+subscribe will keep an eye out.

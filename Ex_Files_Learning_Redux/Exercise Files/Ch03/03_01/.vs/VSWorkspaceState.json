@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\start",
+    "\\start\\dist",
+    "\\start\\src",
+    "\\start\\src\\store"
   ],
-  "SelectedNode": "\\LessonNotes.txt",
   "PreviewInSolutionExplorer": false
 }
